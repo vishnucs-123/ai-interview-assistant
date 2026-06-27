@@ -1,12 +1,3 @@
-"""
-Interview Analytics Dashboard.
-A separate PyQt6 window showing real-time interview statistics:
-- Total questions answered
-- Category breakdown (pie chart)
-- Top topics (bar chart)
-- Recent Q&A history list
-"""
-
 import sys
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel,
