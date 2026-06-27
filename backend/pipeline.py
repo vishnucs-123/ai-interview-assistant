@@ -1,11 +1,3 @@
-"""
-Full Interview Assistant Pipeline.
-Connects all phases together:
-  AudioCapture → Transcriber → QuestionDetector → AnswerEngine → Overlay
-
-Runs in background threads so the UI stays responsive.
-"""
-
 import threading
 import queue
 from PyQt6.QtCore import QObject, pyqtSignal
